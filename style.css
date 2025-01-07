@@ -31,6 +31,10 @@ body{
     color: #757575;
     font-size: 18px;
 }
+.center{
+    text-align: center;
+}
+
 /* Nav Section Start */
 .header{
     background: url(images/developer.png),url(images/header_bg.png),rgb(255, 248, 243);
@@ -108,7 +112,7 @@ nav li a{
 .about{
     background: #FFF8F3;
     border-radius: 10px;
-    margin: 130px 230px;
+    margin: 130px 230px 100px;
     padding: 131px 157px;
     text-align: center
 }
@@ -130,4 +134,28 @@ nav li a{
 .about-discription{
     font-weight: 700;
     margin-top: 5px;
+}
+
+.sckills{
+    margin: 70px 170px;
+    padding: 71px 130px;
+    background: rgb(255, 255, 255);
+}
+.sckills .sec-discription{
+    margin-bottom: 15px;
+}
+.skills-container{
+    display: flex;
+    
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 15px;
+}
+.skill img{
+    margin: 10px 0;
+}
+.skill-title{
+    margin: 5px 0 15px 0;
 }
