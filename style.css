@@ -159,3 +159,75 @@ nav li a{
 .skill-title{
     margin: 5px 0 15px 0;
 }
+
+
+/* Resume Style */
+.resume{
+    margin: 70px 170px;
+    padding: 71px 130px;
+    
+}
+.resume-conteinar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.resume-heder{
+    margin: 5px 400px 80px;
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.resume-column{
+    width: 511px;
+    
+}
+.resume-column-titile{
+    margin-bottom: 45px;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.experience-title{
+    margin: 25px 0 5px;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.experience-sub-title{
+    margin-bottom: 18px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.experience-description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.bd{
+    margin: 30px 500px;
+} 
